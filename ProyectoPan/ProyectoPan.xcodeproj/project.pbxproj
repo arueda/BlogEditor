@@ -13,6 +13,7 @@
 		F40CF068252030D40024BA38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40CF067252030D40024BA38 /* Preview Assets.xcassets */; };
 		F40CF073252030D50024BA38 /* ProyectoPanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CF072252030D50024BA38 /* ProyectoPanTests.swift */; };
 		F40CF07E252030D50024BA38 /* ProyectoPanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CF07D252030D50024BA38 /* ProyectoPanUITests.swift */; };
+		F40CF08F252039F10024BA38 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40CF08E252039F10024BA38 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F40CF079252030D50024BA38 /* ProyectoPanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoPanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40CF07D252030D50024BA38 /* ProyectoPanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoPanUITests.swift; sourceTree = "<group>"; };
 		F40CF07F252030D50024BA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40CF08E252039F10024BA38 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F40CF064252030D40024BA38 /* Assets.xcassets */,
 				F40CF069252030D40024BA38 /* Info.plist */,
 				F40CF066252030D40024BA38 /* Preview Content */,
+				F40CF08E252039F10024BA38 /* Post.swift */,
 			);
 			path = ProyectoPan;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40CF08F252039F10024BA38 /* Post.swift in Sources */,
 				F40CF063252030D10024BA38 /* ContentView.swift in Sources */,
 				F40CF061252030D10024BA38 /* ProyectoPanApp.swift in Sources */,
 			);
